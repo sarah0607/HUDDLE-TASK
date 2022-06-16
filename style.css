@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  box-sizing: border-box;
+  color: hsl(208, 11%, 55%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.firstflex{
+    background-image: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+   margin-bottom: 6em;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+  }
+.intro{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+.introb {
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+  }
+  h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+  }
+  h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+  }
+.secondflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+  }
+  .sg1{
+      display: flex;
+      justify-content: space-around;
+      border: 1px solid rgb(255, 255, 255);
+      width: 85%;
+      border-radius: 2%;
+      padding: 3em;
+      box-shadow: 0px 0px 10px 0px rgb(182, 171, 171);
+  }
+  .sg2{
+      display: flex;
+      display: flex;
+      justify-content: space-around;
+      border: 1px solid rgb(255, 255, 255);
+      width: 85%;
+      border-radius: 2%;
+      padding: 3em;
+      box-shadow: 0px 0px 10px 0px rgb(182, 171, 171);
+  }
+  .sg3{
+      display: flex;
+      display: flex;
+      justify-content: space-around;
+      border: 1px solid rgb(255, 255, 255);
+      width: 85%;
+      border-radius: 2%;
+      padding: 3em;
+      box-shadow: 0px 0px 10px 0px rgb(182, 171, 171);
+  }
+  .sg4{
+      display: block;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      top: 250px;
+      left:340px;
+      background-color: white;
+      border: 1px solid rgb(255, 255, 255);
+      width: 55%;
+      border-radius: 2%;
+      padding: 1em;
+      box-shadow: 0px 0px 5px 0px rgb(182, 171, 171);
+    }
+  .thirdflex {
+      margin-top: 10em;
+    background-color: rgb(0%, 15%, 18%);
+    line-height: 1;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 2em;
+    padding-top: 10em;
+  }
+  
+
+.abt:hover{
+  text-decoration: underline;
+  transition-duration: 0.1s;
+}
+.wwd:hover{
+  text-decoration: underline;
+  transition-duration: 0.1s;
+}
+.faq:hover{
+  text-decoration: underline;
+  transition-duration: 0.1s;
+}
+.career:hover{
+  text-decoration: underline;
+  transition-duration: 0.1s;
+}
+.blog:hover{
+  text-decoration: underline;
+  transition-duration: 0.1s;
+}
+.cu:hover{
+  text-decoration: underline;
+  transition-duration: 0.1s;
+}
+.icons1:hover{
+  filter: invert(44%) sepia(90%) saturate(1412%) hue-rotate(296deg) brightness(103%) contrast(102%);
+  transition-duration: 0.1s;
+}
+.icons2:hover{
+  filter: invert(44%) sepia(90%) saturate(1412%) hue-rotate(296deg) brightness(103%) contrast(102%);
+  transition-duration: 0.1s;
+}
+.icons3:hover{
+  filter: invert(44%) sepia(90%) saturate(1412%) hue-rotate(296deg) brightness(103%) contrast(102%);
+  transition-duration: 0.1s;
+}
+button{
+    cursor: pointer;
+}
+.bt {
+  font-family: "Open Sans";
+  font-weight: 700;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(192, 100%, 9%);
+  width: 155px;
+  border: hsl(0, 0%, 100%) solid 1px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 7px 0px rgb(182, 171, 171);
+}
+.bt1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  padding: 16px;
+  width: 210px;
+  border: hsl(322, 100%, 66%) solid 1px;
+  border-radius: 40px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px 0px rgb(182, 171, 171);
+}
+.bt2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  padding: 20px;
+  width: 350px;
+  border: hsl(322, 100%, 66%) solid 1px;
+  border-radius: 40px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px 0px rgb(182, 171, 171);
+  font-size: 18px;
+}
+.bt:hover {
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color:  hsl(208, 11%, 55%);
+    transition-duration: 0.4s;
+    width: 150px;
+  }
+.bt1:hover {
+    background-color:  rgb(252, 165, 222);
+    border: 1px  solid rgb(252, 165, 222);
+    color: hsl(0, 0%, 95%);
+    transition-duration: 0.4s;
+    width: 205px;
+  }
+  .bt2:hover {
+    background-color:rgb(252, 165, 222);
+    border: 1px solid rgb(252, 165, 222);
+    color:  hsl(0, 0%, 95%);
+    transition-duration: 0.4s;
+    width: 340px;
+  }
+.icon {
+  position: relative;
+  right: 40px;
+  top: 30px;
+}
+
+.icons1 {
+  filter: brightness(0) invert(1);
+  position: relative;
+  bottom: 40px;
+}
+.icons2 {
+  filter: brightness(0) invert(1);
+  position: relative;
+  bottom: 44px;
+}
+.icons3 {
+  filter: brightness(0) invert(1);
+  position: relative;
+  bottom: 35px;
+}
+
+.fourthline {
+    text-decoration: none;
+    margin: 3.5em;
+    line-height: 1.6;
+    position: relative;
+    top: 10px;
+  }
+  .fifthline {
+    margin: 3.5em;
+    line-height: 1.6;
+  }
+  .sixthline {
+    margin: 2em;
+  }
+  .last {
+    line-height: 13;
+  }
+  .logo {
+    filter: brightness(0) invert(1);
+    position: relative;
+    right: 42px;
+  }
+  .view
+  {
+    font-family: "Open Sans";
+    font-weight: 700;
+    background-color: hsl(330, 1%, 27%);
+    color: #fff;
+    padding: 20px;
+    width: 300px;
+    border: hsl(300, 0%, 50%) solid 1px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 0px rgb(182, 171, 171);
+  }
+  .view:hover {
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color:  hsl(330, 1%, 27%);
+    transition-duration: 0.4s;
+    width: 250px;
+  }
+  
+  @media (min-width: 350px) and (max-width: 860px) {
+      .body{
+          margin: 0%;
+          padding: 0%;
+          height: 100%;
+          width: 100%;
+         
+      
+      }
+      .firstflex{
+          background-image: url(bg-hero-mobile.svg);
+
+      }
+      .intro{
+          display: flex;
+          flex-direction: column;
+      }
+    .introb{
+       font-size: 13px;
+        text-align: center;
+    }
+.hl{
+    width: 120px;
+}
+        .thirdflex {
+          display: block;
+        }
+        .im{
+            width: 200px;
+      position: relative;
+      left: 100px;
+        }
+        .bt{
+    width: 100px;
+        }
+        .last {
+          line-height: 1;
+        }
+        .sg1{
+     width: 300px;
+     font-size: 10px;
+        }
+        .sg2{
+    width: 300px;
+    font-size: 10px;
+        }
+        .sg3{
+     width: 300px;
+     font-size: 10px;
+        }
+        .sg4 {
+         
+          width: 300px;
+          position: relative;
+          top: 300px;
+          left: 1em;
+        }
+        .gtm{
+            width: 150px;
+        }
+        .yum{
+            width: 150px;
+        }
+        .fcm{
+            width: 150px;
+        }
+        .bt2 {
+          width: 300px;
+        
+        }
+        .logo{
+         position: relative;
+        left: 1px;
+        }
+        .firstline{
+            position: relative;
+            left: 12px;}
+            .secondline{
+         position: relative;
+         left: 12px;
+            }
+            .thirdline{
+                position: relative;
+                left: 12px;
+        }
+        .fourthline {
+          position: relative;
+          right: 50px;
+        }
+        .fifthline {
+          position: relative;
+          right: 50px;
+        }
+        .sixthline {
+          text-align: center;
+      
+        }
+  }
